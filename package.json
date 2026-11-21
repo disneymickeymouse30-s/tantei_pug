@@ -1,0 +1,12 @@
+{
+  "name": "meitantei-sakichi",
+  "version": "1.0.0",
+  "description": "名探偵・佐吉 〜ちゅ〜る狂騒曲〜 ギャグミステリー×サウンドノベル（依存パッケージなし）",
+  "private": true,
+  "scripts": {
+    "start": "node tools/serve.js 8080",
+    "validate": "node tools/validate.js",
+    "test": "node tools/validate.js && node tests/core.test.js && node tests/playthrough.test.js",
+    "test:ui": "python3 tests/ui_e2e.py"
+  }
+}
